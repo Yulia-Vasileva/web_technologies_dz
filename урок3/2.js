@@ -2,7 +2,7 @@
 // Необходимо у пользователя запросить имя и вызвать функцию greeting, передав туда полученное от пользователя значение.
 
 const input = prompt("Введите имя: ");
-function greeting(name){
-console.log(`Привет ${input}`);
+function greeting(name) {
+    console.log(`Привет ${name}`);
 }
 greeting(input);
